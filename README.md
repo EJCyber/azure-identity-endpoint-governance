@@ -43,6 +43,8 @@ The solution is centered around Microsoft Entra ID as the identity provider and 
 
 ---
 
+## Identity Architecture & Access Flow
+
 ![Azure Identity and Access Architecture](./diagrams/Architecture_Diagram.jpg)
 
 This diagram illustrates how Microsoft Entra ID functions as the identity control plane, governing authentication, access assignment, role management, lifecycle operations, automation, and validation within the environment.
