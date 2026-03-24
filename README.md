@@ -165,16 +165,31 @@ This ensured that identity lifecycle actions behaved as expected across both pro
 
 ---
 
-## Screenshots
+## Evidence 
 
-*(To be added)*
+### Onboarding Automation Execution
 
-Suggested:
-- Onboarding script execution  
-- Offboarding script execution  
-- User in Entra ID  
-- Group membership validation  
-- Disabled user account  
+![Onboarding Automation Execution](./evidence/onboarding-execution.png)
+
+This screenshot shows the onboarding workflow creating new users, assigning department based security groups, applying baseline access, and validating the account through Microsoft Graph PowerShell.
+
+### Offboarding Automation Execution
+
+![Offboarding Automation Execution](./evidence/offboarding-execution.png)
+
+This screenshot shows the offboarding workflow disabling the user account, removing group memberships, and preserving the account for retention and audit purposes.
+
+### Onboarding Script Example
+
+![Onboarding Script Source](./evidence/onboarding-script-source-1.png)
+
+This screenshot highlights part of the onboarding script used to automate Entra ID user provisioning and group based access assignment.
+
+### Offboarding Script Example
+
+![Offboarding Script Source](./evidence/offboarding-script-source.png)
+
+This screenshot highlights part of the offboarding script used to disable accounts and remove access during deprovisioning.
 
 ---
 
