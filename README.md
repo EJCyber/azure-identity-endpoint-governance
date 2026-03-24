@@ -185,6 +185,19 @@ azure-identity-endpoint-governance/
 
 ---
 
+## Documentation
+
+Detailed project documentation is available in the `docs` folder.
+
+1. [Architecture Overview](./docs/architecture-overview.md)
+2. [Identity and Access Design](./docs/identity-and-access-design.md)
+3. [Security Baseline](./docs/security-baseline.md)
+4. [Automation Design](./docs/automation-design.md)
+5. [Constraints](./docs/constraints.md)
+6. [Implementation Summary](./docs/implementation-summary.md)
+
+---
+
 ## Author
 
 **Emmanuel Johnson**  
