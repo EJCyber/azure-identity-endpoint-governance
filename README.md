@@ -107,6 +107,8 @@ Automation was implemented using Microsoft Graph PowerShell.
 
 These scripts establish a repeatable identity lifecycle process, reducing manual intervention and improving operational consistency.
 
+The automation layer is implemented through two PowerShell scripts stored in the scripts folder.
+
 ## Scripts
 
 The following PowerShell scripts are included in the `scripts` folder.
@@ -149,7 +151,7 @@ This ensured that identity lifecycle actions behaved as expected across both pro
 
 - Conditional Access was not implemented due to licensing limitations  
 - Role assignment to groups (Privileged Access Groups) was not available  
-- Azure free tier environment used for implementation  
+- Implemented in an Azure free tier lab environment, which influenced available features and configuration choices.  
 
 ### Production Improvements:
 - Enable Conditional Access policies  
@@ -198,17 +200,24 @@ This screenshot highlights part of the offboarding script used to disable accoun
 ## Project Structure
 
 azure-identity-endpoint-governance/
-│
-
 ├── README.md
-
+├── diagrams/
+│   └── architecture-diagram.png
 ├── docs/
-
+│   ├── architecture-overview.md
+│   ├── identity-and-access-design.md
+│   ├── security-baseline.md
+│   ├── automation-design.md
+│   ├── constraints.md
+│   └── implementation-summary.md
 ├── scripts/
-
-├── evidence/
-
-└── diagrams/
+│   ├── New-CompanyUser.ps1
+│   └── Disable-CompanyUser.ps1
+└── evidence/
+    ├── onboarding-execution.png
+    ├── offboarding-execution.png
+    ├── onboarding-script-source-1.png
+    └── offboarding-script-source.png
 
 ---
 
