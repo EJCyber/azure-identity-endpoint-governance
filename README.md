@@ -105,6 +105,16 @@ Automation was implemented using Microsoft Graph PowerShell.
 
 These scripts establish a repeatable identity lifecycle process, reducing manual intervention and improving operational consistency.
 
+## Scripts
+
+The following PowerShell scripts are included in the `scripts` folder.
+
+1. [New-CompanyUser.ps1](./scripts/New-CompanyUser.ps1)  
+   Automates user onboarding by creating a new Entra ID user, applying naming conventions, assigning department based security groups, and adding baseline access.
+
+2. [Disable-CompanyUser.ps1](./scripts/Disable-CompanyUser.ps1)  
+   Automates offboarding by disabling the user account, removing group memberships, and preserving the account for retention and audit purposes.
+   
 ---
 
 ## Validation & Testing
