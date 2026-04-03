@@ -1,4 +1,4 @@
-# Azure Identity & Endpoint Governance Lab
+# Azure Identity Governance Lab
 
 *A cloud-based identity governance implementation focused on secure access control, automation, and real-world administrative practices.*
 
